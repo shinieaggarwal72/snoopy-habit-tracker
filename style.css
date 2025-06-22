@@ -1,0 +1,65 @@
+body{
+    background-image: url(snoopy.jpeg);
+    background-size: 500px;
+    background-color: #6495ED;
+    background-blend-mode: lighten;
+    text-align: center;
+    font-family: halogen;
+}
+
+#title{
+    margin-top:100px;
+    line-height: 10px;
+}
+
+#subtitle{
+    opacity: 0.7;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#calendarContainer{
+    display: flex;
+    justify-content: end;
+}
+#calendarDiv{
+    background-color: #6495ED;
+    border-radius: 10px 10px 20px 20px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+#calendarHeading{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid black;
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: #4169E1;
+    line-height: 0px;
+}
+#calendarContent{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+}
+.days{
+    display: flex;
+}
+.day{
+    width: 30px;
+    margin: 3px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+#reset{
+    margin: 20px 20px 20px 20px;
+    background-color: #4169E1;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+
+}
