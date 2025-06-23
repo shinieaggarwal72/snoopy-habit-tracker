@@ -77,7 +77,7 @@ for(let i=0; i<currDate; i++){
     var thisDate = document.getElementById("day"+(num));
     var storageStr = ""+num+"-"+(currMonth+1)+"-"+(currYear);
     if(localStorage.getItem(storageStr) === "true"){
-        thisDate.style.backgroundColor ="#6495ED";
+        thisDate.style.backgroundColor ="#4169E1";
         completedDays++;
     }
     totDays.innerHTML = completedDays+ "/" + daysCurrMonth;
